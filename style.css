@@ -1,0 +1,185 @@
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Header-section */
+.header{
+    background-color: #2992de;
+}
+
+.header-logo img{
+    width: 170px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.prymary-menu{
+    text-align: right;
+}
+.prymary-menu ul{
+    margin-bottom: 0;
+}
+.prymary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.prymary-menu ul li a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 66px;
+    border-right: 1px solid #fff;
+}
+.prymary-menu ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+
+.prymary-menu ul li a:hover{
+    background-color: #2980b9;
+}
+
+
+/* banner section */
+
+.banner{
+    background-image: url(https://i.postimg.cc/sDqdD9S4/015094afa22a96608cb51229129275dc.jpg);
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text{}
+.banner-text h1{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.banner-text p{
+    background-color: #2992de;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* About Section */
+
+.about{
+    background-color: #ebf0f1;
+}
+
+
+
+
+
+
+/* Service Section */
+
+.service{
+    background-color: #f9f9f9;
+}
+.service-heding{}
+.service-heding h2{}
+.service-heding{}
+
+.card span{
+    height: 60px;
+    width: 60px;
+    background: #2992de;
+    color: #fff;
+    margin: auto;
+    font-size: 45px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+    margin-top: 10px;
+}
+.card h2{}
+.card p{}
+
+
+
+
+
+/* Product Section */
+
+img{
+    max-width: 100%;
+}
+
+
+.notice-bord{}
+.notice-bord h2{
+    font-size: 30px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    margin-left: 40px;
+}
+.notice-bord ul{
+    list-style: none;
+}
+.notice-bord ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Contact Section */
+
+.contact{
+    background-color: #ebf0f1;
+}
+.google-map{}
+.contact-form{}
+.contact-form{}
+
+
+
+
+
+/* Footer Section */
+
+.footer{
+    background-color: #2c3e50;
+}
+
+.footer p{
+    color: #fff;
+    line-height: 40px;
+}
+
+.social-menu{
+    text-align: right;
+}
+.social-menu ul{
+    margin-bottom: -16px;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{
+    color: #fff;
+    font-size: 27px;
+    margin-left: 45px;  
+}
